@@ -2,18 +2,7 @@
 
 Làm 1 lần. Sau đó agency tự đổi banner, nhân viên không phải làm gì.
 
-## Bước 1 — DNS
-
-Tạo bản ghi CNAME trong DNS của domain công ty:
-
-| Type  | Name | Value                                          |
-|-------|------|------------------------------------------------|
-| CNAME | sig  | `<agency-org>.github.io` (nếu agency dùng GitHub Pages) |
-| A     | sig  | `<IP server Hostinger>` (nếu agency dùng Hostinger)     |
-
-Agency sẽ báo cho IT nên dùng dòng nào.
-
-## Bước 2 — Gắn banner (chọn 1 trong 2 cách)
+## Gắn banner (chọn 1 trong 2 cách)
 
 ### Cách A — Tự động cho toàn công ty (Microsoft 365, cần quyền Exchange admin)
 
