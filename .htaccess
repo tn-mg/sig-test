@@ -1,0 +1,5 @@
+# Chỉ có tác dụng trên Hostinger (Apache/LiteSpeed). GitHub Pages bỏ qua file này.
+# Không cache banner lâu, để thay ảnh là người nhận thấy ngay.
+<Files "banner.png">
+  Header set Cache-Control "no-cache, max-age=0"
+</Files>
